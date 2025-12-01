@@ -266,13 +266,12 @@ sudo apt install -y isc-dhcp-server
 
 ### Definir interface do serviço
 
-Edite (ou escreva) o arquivo de defaults:
 
 ```bash
 sudo sed -i 's/^INTERFACESv4=.*/INTERFACESv4="eth0"/' /etc/default/isc-dhcp-server || echo 'INTERFACESv4="eth0"' | sudo tee /etc/default/isc-dhcp-server
 ```
 
-### Criar arquivo de configuração (exemplo para VLAN 20)
+### Criar arquivo de configuração
 
 ```bash
 sudo tee /etc/dhcp/dhcpd.conf > /dev/null <<'EOF'
