@@ -4,8 +4,7 @@
 **Autores:** Kaiky Malaquias,Heitor Messias Gomes
 
 **Resumo:**
-Este projeto descreve a concepção de uma rede residencial organizada, com topologia física e lógica, segmentação em sub-redes, e os requisitos para implementação dos seguintes serviços: DHCP, DNS, servidor web (Apache/Nginx), FTP (vsftpd), e NFS. O objetivo é fornecer um roteiro técnico claro para implantação em um laboratório ou ambiente real, incluindo endereçamento IP, pools DHCP, registros DNS, requisitos de hardware/software e medidas básicas de segurança.
-
+Este projeto descreve a concepção de uma rede residencial organizada, com topologia física e lógica, segmentação em sub-redes, e os requisitos para implementação dos seguintes serviços: DHCP, DNS, servidor web (Apache/Nginx), FTP (vsftpd), e NFS.
 ---
 
 ## 1. Objetivos do projeto
